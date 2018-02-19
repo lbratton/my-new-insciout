@@ -1,0 +1,16 @@
+go to the folder you want to upload online,
+then, open the terminal:
+
+git init
+git add .
+git commit -m 'first commit'
+git remote add origin https://github.com/lbratton/my-new-insciout.git
+git push -u origin master
+
+NOTE: you can open the terminal and use ls and cd to navigate up to your folder
+
+Then when you want to update the content of the repo:
+
+git add .
+git commit -m 'write a message here'
+git push origin master
